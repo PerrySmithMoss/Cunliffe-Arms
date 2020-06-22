@@ -29,7 +29,6 @@ body {
   }
 
   /* Navigation */ 
-
   .main-nav {
     display: flex;
     align-items: center;
@@ -42,7 +41,6 @@ body {
   .main-nav .logo {
       width: 60px;
   }
-
 
   .main-nav ul {
       display: flex;
@@ -91,6 +89,50 @@ body {
   .btn:hover {
       opacity: 0.9;
   }
+
+    @media (max-width: 700px) {
+    .menu-btn {
+        display: block;
+    }
+
+    .menu-btn:hover {
+        opacity: 0.5;
+    }
+
+    .main-nav ul.right-menu {
+        margin-right: 50px;
+    }
+
+    .main-nav ul.main-menu {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #f2f2f2;
+        width: 50%;
+        height: 100%;
+        border-right: #ccc 1px solid;
+        opacity: 0.9;
+        padding: 30px;
+        transform: translateX(-500px);
+        transition: transform 0.5s ease-in-out;
+
+    }
+
+    .main-nav ul.main-menu li {
+        padding: 10px;
+        border-bottom: #ccc solid 1px;
+        font-size: 14px;
+    }
+
+    .main-nav ul.main-menu li:last-child {
+        border-bottom: 0px;
+    }
+
+    .main-nav ul.main-menu.show {
+        transform: translateX(-20px);
+    }
+}
 
   /* Dropdown menu */
   .dropdown {
@@ -182,7 +224,7 @@ body {
       margin-left: 10px;
   }
 
-  /* Menus */
+/* Menus */
 .menu-header {
     text-align: center;
     margin: auto;
@@ -283,6 +325,7 @@ body {
           grid-gap: 15px;
       }
   }
+  
   @media (max-width: 767px) {
     .menus {
         grid-template-columns: repeat(2, 1fr);
@@ -293,50 +336,6 @@ body {
     }
     .menu-content {
         bottom: 0;
-    }
-}
-
-@media (max-width: 700px) {
-    .menu-btn {
-        display: block;
-    }
-
-    .menu-btn:hover {
-        opacity: 0.5;
-    }
-
-    .main-nav ul.right-menu {
-        margin-right: 50px;
-    }
-
-    .main-nav ul.main-menu {
-        display: block;
-        position: absolute;
-        top: 0;
-        left: 0;
-        background: #f2f2f2;
-        width: 50%;
-        height: 100%;
-        border-right: #ccc 1px solid;
-        opacity: 0.9;
-        padding: 30px;
-        transform: translateX(-500px);
-        transition: transform 0.5s ease-in-out;
-
-    }
-
-    .main-nav ul.main-menu li {
-        padding: 10px;
-        border-bottom: #ccc solid 1px;
-        font-size: 14px;
-    }
-
-    .main-nav ul.main-menu li:last-child {
-        border-bottom: 0px;
-    }
-
-    .main-nav ul.main-menu.show {
-        transform: translateX(-20px);
     }
 }
 
@@ -710,3 +709,204 @@ body {
         grid-template-columns: 1fr;
     }
 }
+
+/* About us */
+.about-us {
+    padding: 51px 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;    
+    transition: .5s all ease;
+}
+
+.about-us .form-area h2 {
+    font-weight: 500;
+    font-size: 28px;
+    color: #4F4F4F;
+    text-align: center;
+    transition: .5s all ease;
+}
+
+.about-us .form-area p {
+    max-width: 340px;
+    font-weight: 300;
+    color: #464646;
+    margin: auto;
+    text-align: center;
+}
+
+.about-us .contact {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: .5s all ease;
+ }
+
+.about-us .contact .map {
+    width: 400px;
+    margin-right: 35px;
+    animation-duration: 1.5s;
+}
+.about-us .contact .map iframe {
+    width: 100%;
+    height: 300px;
+    box-shadow: 0 0 8px rgba(0,0,0, .3);                
+}
+
+.about-us .contact .form {
+    width: 525px;
+    transition: .5s all ease;
+    animation-duration: 1.5s;
+}
+
+.about-us .contact .form input,
+.about-us .contact .form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 8px;
+    border: 1px solid #dadce0;
+    border-radius: 5px;
+    outline: none;
+    transition: .3s;
+}
+
+.about-us .contact .form input:focus,
+.about-us .contact .form textarea:focus {
+    border: 1px solid #4285F4;
+    box-shadow: inset 1px 1px 0 #4285F4, inset -1px -1px 0 #4285F4;
+    inset: -1px -1px 0 #4285f4;
+} 
+
+.about-us .contact .form textarea {
+    max-height: 90px;   
+    max-width: 100%;   
+}
+
+.about-us .contact .form textarea #submit {
+    display: inline-block;
+    width: 105px;
+    text-align: left;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+    background-color: #33B5E5;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 11px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transition: .1s all ease;
+}
+
+.submit-area {
+    padding-top: 5px;
+}
+
+.about-us .contact .form .submit-area
+    #hover {
+        box-shadow: 0 7px 15px rgba(0, 0, 0, .25);
+}    
+
+.about-us .contact .form .submit-area i.far-paper-plane {
+    left: 70px;
+    top: 9px;
+    color: #fff;
+    font-size: 13px;
+}
+
+.about-us .contact .form label {
+    background-color: #fff;
+    color: #6b6b6b;
+    font-size: 17px;
+    font-weight: 300;
+    transition: 0.5s all cubic-bezier(0.5, 1.35, 0.5, 1.35);
+}
+
+.about-us .contact .form input:focus + .label, .about-us .contact .form input:valid + .label,
+.about-us .contact .form textarea:focus + .label,
+.about-us .contact .form textarea:valid + .label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #4285f4;
+}
+
+@media screen and (max-width: 1200px) {
+    .about-us {
+        padding: 50px 10px;
+    }
+    .about-us .contact .map {
+        width: 320px;
+    } 
+    .about-us .contact .form {
+        width: 485px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .about-us {
+        width: 100%;
+        height: auto;
+    }
+    .form-area {
+        width: 65%;
+    }
+    .about-us .contact {
+        flex-direction: column;
+    }
+    .about-us .contact .map {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    } 
+    .about-us .contact .form {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .about-us {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .about-us {
+        width: 100%;
+        height: auto;
+    }
+    .about-us .contact {
+        flex-direction: column;
+    }
+    .about-us.contact .map {
+        width: 300px;
+        margin-right: 0;
+        margin-bottom: 10px;
+    } 
+    .about-us .contact .form {
+        width: 300px;
+    }
+
+}
+
+@media screen and (max-width: 330px){
+    .about-us {
+        width: 100%;
+        height: auto;
+    }
+    .about-us .contact {
+        flex-direction: column;
+    }
+    .about-us .contact .map {
+        width: 240px;
+        margin-right: 0;
+        margin-bottom: 10px;
+    } 
+    .about-us .contact .form {
+        width: 230px;
+    }
+
+}
+
+/* Menus */
+
