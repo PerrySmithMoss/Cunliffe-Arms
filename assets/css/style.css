@@ -802,7 +802,14 @@ body {
       margin-left: 50px;
       opacity: 0;
       transition: 0.6s;
+      width: auto;
   }
+
+  .about-us_hr {
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+
   #tap-1:checked ~ .inner-part .content-1,
   #tap-2:checked ~ .inner-part .content-2,
   #tap-3:checked ~ .inner-part .content-3 {
@@ -1082,3 +1089,58 @@ body {
         width: 30px;
     }
 }
+
+/* What we offer */
+  .what-we-offer {
+    width: 100%;
+    padding-bottom: 6rem;
+  }
+  
+  .section-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0 3.5rem 0;
+  }
+
+  .section-heading {
+    font-family: "Muli", serif;
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: #4b4b4b;
+    margin-bottom: .4rem;
+  }
+
+  .underline {
+    width: 12rem;
+    height: 0.3rem;
+    background-color: #c29525;
+  }
+
+  .services {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(4, 6rem);
+    grid-row-gap: 4rem;
+    grid-column-gap: 2rem;
+  }
+
+  .service {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .service-header i {
+    font-size: 1rem;
+    color: #4b4b4b;
+  }
+
+  .what-we-offer-img-wrapper {
+    width: 40rem;
+  }
+
+  .what-we-offer-img-wrapper img {
+    width: 100%;
+  }
