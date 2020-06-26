@@ -750,7 +750,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 49.2vh;
+    height: 400px;
   }
   
   .review-card {
@@ -949,7 +949,7 @@ body {
         align-self: start;
     }
     .review-body {
-        height: 45vh;
+        height: 700px
       }
     .review-card {
         height: 600px;
@@ -1028,7 +1028,7 @@ body {
         height: 550px;
     }
     .review-body {
-        height: 43vh;
+        height: 610px;
       }
 }
 
@@ -1061,7 +1061,7 @@ body {
         height: 470px;
     }
     .review-body {
-        height: 37vh;
+        height: 510px;
       }
       .sliders .tap {
         height: 10px;
@@ -1093,7 +1093,7 @@ body {
 /* What we offer */
   .what-we-offer {
     width: 100%;
-    padding-bottom: 6rem;
+    padding-bottom: 5px;
   }
   
   .section-header {
@@ -1144,3 +1144,33 @@ body {
   .what-we-offer-img-wrapper img {
     width: 100%;
   }
+
+  @media screen and (max-width: 800px) {
+    .services {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .service {
+        width: 40rem;
+        margin-bottom: 2.5rem;
+        margin-left: auto;
+        margin-right: auto;
+      }
+}
+
+@media screen and (max-width: 675px) {
+    .services {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .service {
+        width: auto;
+        margin-bottom: 2.5rem;
+        margin-left: auto;
+        margin-right: auto;
+      }
+}
