@@ -1145,6 +1145,14 @@ body {
     width: 100%;
   }
 
+
+  .about-us_href {
+    display: inline-block;
+    padding-top: 2px;
+    color: #0067b8;
+    font-weight: bold;
+}
+
   @media screen and (max-width: 800px) {
     .services {
         display: flex;
