@@ -1189,9 +1189,10 @@ body {
 .slide-content {
   margin: 0;
   padding: 0;
+  padding-top: 40px;
   font-family: Arial, Helvetica, sans-serif;
   width: 100%;
-  height: 40vh;
+  height: 500px;
   overflow-x: hidden;
 }
 
