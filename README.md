@@ -2,10 +2,13 @@
 A website created for a local pub and restaurant. 
 
 ## Screenshots
-<img width="1437" alt="home1" src="https://user-images.githubusercontent.com/59027997/85923659-dfe8ef00-b884-11ea-8001-b5e045049c92.png">
-<img width="1437" alt="home2" src="https://user-images.githubusercontent.com/59027997/85923686-250d2100-b885-11ea-8a12-6dfe3caf694c.png">
-<img width="1436" alt="about_us1" src="https://user-images.githubusercontent.com/59027997/85923690-2a6a6b80-b885-11ea-8375-fd1e39cee39f.png">
-<img width="1435" alt="about_us2" src="https://user-images.githubusercontent.com/59027997/85923693-2cccc580-b885-11ea-96ce-7f2c1eeb529f.png">
-<img width="794" alt="about_us4" src="https://user-images.githubusercontent.com/59027997/85923694-2d655c00-b885-11ea-9e19-2f20e68621e9.png">
-<img width="1428" alt="about_us3" src="https://user-images.githubusercontent.com/59027997/85923698-2fc7b600-b885-11ea-8b18-9e2452537c97.png">
-<img width="1435" alt="contact_us1" src="https://user-images.githubusercontent.com/59027997/85923699-30f8e300-b885-11ea-868a-b7b79954f0de.png">
+<img width="1437" alt="home1" src="https://user-images.githubusercontent.com/59027997/87140493-82e43480-c299-11ea-8536-0edcdd63b09e.png">
+<img width="1435" alt="home2" src="https://user-images.githubusercontent.com/59027997/87140503-87105200-c299-11ea-9960-5cc37c7a3f01.png">
+***
+<img width="1440" alt="menus" src="https://user-images.githubusercontent.com/59027997/87140517-8d063300-c299-11ea-9629-2fedc4dff5d2.png">
+***
+<img width="1439" alt="about1" src="https://user-images.githubusercontent.com/59027997/87140513-8aa3d900-c299-11ea-9289-53be7f2e2490.png">
+<img width="1439" alt="about2" src="https://user-images.githubusercontent.com/59027997/87140541-95f70480-c299-11ea-875f-a54591a4e05f.png">
+<img width="1436" alt="about3" src="https://user-images.githubusercontent.com/59027997/87140549-998a8b80-c299-11ea-8d95-2831edca51a4.png">
+***
+<img width="1440" alt="contact" src="https://user-images.githubusercontent.com/59027997/87140545-98595e80-c299-11ea-80f8-78b343a9c842.png">
